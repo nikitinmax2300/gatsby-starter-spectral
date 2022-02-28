@@ -22,10 +22,10 @@ module.exports = {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: '/',
+      url: 'https://twitter.com/prolang_dev',
     },
     {
-      style: 'solid',
+      style: 'brands',
       icon: 'fa-discord',
       name: 'discord',
       url: 'https://discord.com/invite/RpZhfzVr9j',
