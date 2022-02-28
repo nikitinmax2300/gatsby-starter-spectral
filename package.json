@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "prolang-dev",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Spectral by HTML5 UP",
+  "description": "A collection of beautiful code snippets with brilliant solutions for the most popular algos out there, soaked with intellectual efforts and knowledge. ",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "fibonacci"
   },
   "dependencies": {
     "gatsby": "^4.2.0",

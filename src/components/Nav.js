@@ -10,7 +10,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             href="#menu"
             onClick={e => {
               e.preventDefault();
-              onMenuToggle();
+              // onMenuToggle();
             }}
             className="menuToggle"
           >

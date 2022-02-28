@@ -621,6 +621,7 @@
 		img {
 			border-radius: 3px;
 			display: block;
+			width: 100%;
 		}
 
 		&.left {
@@ -1592,8 +1593,9 @@
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
-			opacity: 1;
+			font-size: 3em;
+			// font-family: 'Libre Franklin Black', sans-serif;
+			font-family: 'HK Modular', sans-serif;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
@@ -1623,7 +1625,8 @@
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
-
+			font-family: 'Libre Franklin Black', sans-serif;
+			color: #9C8B26;
 			a {
 				color: inherit;
 			}

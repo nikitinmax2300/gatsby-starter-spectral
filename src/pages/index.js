@@ -7,6 +7,7 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import pic4 from '../assets/images/pic04.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -16,11 +17,10 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
+              <a href="https://opensea.io/collection/prolang-dev" target="_blank"
+          rel="noopener" className="button primary">
+                Explore NFT
               </a>
-            </Scroll>
           </li>
         </ul>
       </div>
@@ -35,16 +35,12 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+          A collection of beautiful code snippets with brilliant solutions for the most popular algos out there, soaked with intellectual efforts and knowledge.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+          More programming languages and support for creating/selling your own code coming soon.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Join our community of code and NFT enthusiasts!
           </p>
         </header>
         <ul className="icons major">
@@ -74,13 +70,13 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+          100% of ALL PROFITS/ROYALTIES will be sent to Humanitarian Aid for Ukrainian🇺🇦 people, kids, seniors, providing them with shelters, food and medicine.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          All transactions are verifiable on Polygon Blockchain.
+          </p>
+          <p>
+          Help Ukraine🇺🇦! Help the world!🌎 
           </p>
         </div>
       </section>
@@ -90,13 +86,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Idea
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            This project was created with an itention of helping people, sharing the knowledge, uniting software engineers and NFT enthusiasts through creation and engagement with coding languages. It`s not a overhyped animal pic. It`s a meaningful, commented and tested source code for the most popular and complicated algos in web build by community for community. 
           </p>
         </div>
       </section>
@@ -106,31 +99,38 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+          Rarity
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          The current supply of all NFT`s is 100 pieces of JavaScript code snippest.
+            They collection features different color themes and will support more languages.
+            Rarity is numerical so the the bigger the number the less rare it becomes.
           </p>
         </div>
       </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
-      <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Love coding? Great, mint and sell your own NFT`s </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            This part is being developed soon... It might look like this...
           </p>
         </header>
-        <ul className="features">
+        {/* <section className="spotlight"> */}
+        <div className="image">
+          <img src={pic4} alt="" />
+        </div>
+        <div className="content">
+        <ul className="actions stacked">
+          <li>
+            <a href="/#" className="button fit primary">
+              Mint
+            </a>
+          </li>
+          </ul>
+        </div>
+        {/* <ul className="features">
           <li className="icon fa-paper-plane">
             <h3>Arcu accumsan</h3>
             <p>
@@ -173,11 +173,11 @@ const IndexPage = () => (
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
-        </ul>
-      </div>
+        </ul> */}
+         {/* </section> */}
     </section>
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Arcue ut vel commodo</h2>
@@ -199,7 +199,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
